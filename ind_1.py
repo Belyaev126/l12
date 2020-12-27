@@ -30,7 +30,7 @@ class Fraction:
             raise ValueError()
 
         self.__whole = abs(parts[0])
-        self.__fractional = abs(parts[1])
+        self.__fractional = abs(parts[1]) 
 
     def display(self):
         print(f"{self.__whole}/{self.__fractional}")
